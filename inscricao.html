@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem vindo!</title>
+    <link rel="stylesheet" href="CSS inscricao/styles.css" />
+    <script src="JS inscricao/script.js" defer></script>
+</head>
+<body>
+    <div class="content">
+      <div class="contentsub">
+        <h1>Formulário Criatura Magíca : </h1>
+    <form id="insc">
+      <p> Nome :</p>
+        <div >
+            <input type="text" placeholder="Digite seu nome" class="inputs required" oninput="nameValidate()" />
+            <span class="span-required">Nome deve ter no minimo 3 caracteres</span>
+        </div>
+        <p> Email :</p>
+        <div >
+            <input type="email" placeholder="Digite seu melhor email" class="inputs required" oninput="emailValidate()" />
+            <span class="span-required">Digite um email valido</span>
+        </div>
+        <p>Endereço Magíco :</p>
+        <div >
+          <input type="text" placeholder="Digite seu endereço" class="inputs required" oninput="mainEnderecoValidate()" />
+          <span class="span-required">Digite um endereço valido</span>
+      </div>
+        <p> Senha :</p>
+        <div >
+            <input type="password" placeholder="Digite sua senha" class="inputs required" oninput="mainPasswordValidate()" />
+            <span class="span-required">Digite uma senha com no minimo 8 caracteres</span>
+        </div>
+        <div >
+            <input type="password" placeholder="Digite novamente sua senha" class="inputs required" oninput="mainPasswordNewValidate()"/>
+            <span class="span-required">Senhas devem ser compativeis</span> 
+            
+        </div>
+        <p>Se descreva um pouco:</p>
+<textarea class="inputs" name="descricao" id="descricao" cols="25" rows="10" placeholder="Fale um pouco sobre voce..."></textarea>
+
+<p> Sexo:</p>
+<div class="box-select">
+  <input type="radio" id="m" value="m" name="sexo">
+  <label for="m">Masculino</label>
+</div>
+
+<div class="box-select">
+    <input type="radio" id="f" value="f" name="sexo"> 
+    <label for="f">Feminino</label>
+  </div>
+
+  <div class="box-select">
+    <input type="radio" id="o" value="o" name="sexo">
+    <label for="o">Outro</label>
+  </div>
+
+  <p> Quais suas experiencias </p>
+  <div class="box-select">
+    <input type="checkbox" id="html" value="html" name="experiencias">
+    <label for="html">HTML</label>
+  </div>
+  
+  <div class="box-select">
+      <input type="checkbox" id="css" value="css" name="experiencias"> 
+      <label for="css"> CSS </label>
+    </div>
+  
+    <div class="box-select">
+      <input type="checkbox" id="js" value="js" name="experiencias">
+      <label for="js">JavaScript</label>
+    </div>
+    
+    <div class="box-select">
+        <input type="checkbox" id="php" value="php" name="experiencias">
+        <label for="php">PHP</label>
+      </div>
+      <p> Termos de Serviço :</p>
+      <textarea class="inputs" name="descricao" id="descricao" cols="25" rows="10" > Bem-vindo à Riot Games! Nossa política de privacidade explica quais informações a Riot Games coleta quando você visita ou usa os Serviços da Riot, bem como as formas como podemos usá-las ou compartilhá-las. Estamos apenas descrevendo nossas próprias práticas – esta política não se aplica a terceiros que não controlamos e nem fazem parte de nosso grupo, inclusive outras empresas com as quais você possa interagir nos Serviços da Riot ou por meio deles (consulte Sites e Serviços de Terceiros).
+
+        A Riot Games, Inc. está sediada em Los Angeles. A Riot Games, Inc. e suas subsidiárias fazem parte de um grupo global de empresas afiliadas de jogos, com escritórios e operações em todo o mundo (consulte Processamento Internacional de Dados).Quando dizemos “Riot Games” (ou coisas semelhantes como “nós” ou “nos”), estamos nos referindo à pessoa jurídica Riot Games ou, quando aplicável, às empresas que controlam e são responsáveis por suas informações (consulte Fale Conosco para saber quem é).
+        
+        Quando dizemos "Serviços da Riot", queremos dizer quaisquer jogos, sites, aplicativos e serviços vinculados a esta política, independentemente de como você os acessa, utiliza ou se envolve conosco, inclusive por meio de dispositivos móveis ou offline, como por telefone. O uso que você fizer dos Serviços da Riot também está sujeito aos Termos de Serviço em sua região (inclusive suas disposições sobre limitações de indenização por danos, resolução de conflitos e aplicação da lei regente). Leia esta política na íntegra a fim de garantir que você a compreenda. Você também deve ler os Termos de Serviço com atenção, e certificar-se de ter entendido e concordado com eles antes de utilizar os Serviços da Riot.
+        
+        Recomendamos que você use os recursos interativos desta política para guiá-lo. Elaboramos resumos para identificar rapidamente os principais assuntos discutidos em várias seções. Contudo, esses resumos destinam-se apenas a simplificar as coisas, sendo que a política deve ser lida completamente, pois ela se sobrepõe em caso de ambiguidade ou conflitos (não deixe de ler com atenção a coisa toda!). . Clique nos links "Saiba Mais" para obter mais detalhes sobre tópicos específicos que lhe interessam. Para percorrer as seções, use os links "Voltar ao Início" e o Índice abaixo.
+        
+        Em caso de dúvidas quanto a alguma parte da política, envie suas perguntas através do Fale Conosco.
+        
+        Por favor consulte o link a seguir se você reside na Rússia ou Turquia.
+        
+        Índice
+        I. Dados que coletamos
+        a. Dados que você fornece
+        b. Dados que coletamos automaticamente
+        c. Dados que coletamos de terceiros
+        II. Como coletamos dados
+        a. Cookies & Tecnologias
+        b. Análise de sites & Anúncios baseados em interesse
+        c. Fan Pages no Facebook
+        III. Como utilizamos e compartilhamos dados
+        a. Bases legais
+        b. Utilização de dados
+        c. Compartilhamento de dados
+        d. Comunicação & comportamento de jogadores
+        e. Anti-trapaça e Prevenção a Fraudes
+        IV. Websites e serviços de terceiros
+        V. Processamento Internacional de Dados
+        VI. Seus Direitos, Opções e Controles
+        VII. Segurança
+        VIII. Atualizações e revisões
+        IX. Fale Conosco
+        
+        Expandir tudo | Fechar tudo
+        
+        I. DADOS QUE COLETAMOS
+        Resumo: Coletamos dados de três maneiras principais:
+        
+        Você nos fornece alguns diretamente (p. ex., ao registrar uma conta).
+        Armazenamos alguns automaticamente (inclusive com tecnologias do tipo cookies
+        Recebemos alguns dados de terceiros (p ex., empresas de mídia social).
+        TOs tipos específicos de dados que coletamos geralmente dependem de como você interage conosco, por exemplo, quais Serviços da Riot que você usa e como o faz.
+        
+        A. Dados que você fornece
+        Resumo: Coletamos os dados que você optar por nos dar ou fornecer de qualquer maneira. Você não precisa compartilhar informações quando solicitamos, mas, se recusar, talvez não consiga acessar determinados Serviços da Riot nem tirar proveito de todas as suas funcionalidades.
+        
+        Saiba Mais
+        
+        B. Dados que Coletamos Automaticamente
+        Resumo: Coletamos automaticamente alguns dados sobre como você interage e navega nos Serviços da Riot, bem como o dispositivo e o software que você usa para isso.
+        
+        Saiba Mais
+        
+        C. Dados que Coletamos de Terceiros
+        Resumo: Às vezes, obtemos informações de terceiros para usar junto com os dados que coletamos. Por exemplo, se você vincular sua conta do Facebook à sua conta da Riot Games, o Facebook poderá compartilhar informações conosco de acordo com a política de privacidade do Facebook e as suas configurações de privacidade. O Facebook também compartilha informações conosco sobre o seu uso de nossos jogos oficiais da Riot Games e fan pages de jogos específicos no Facebook. Também coletamos, por exemplo, informações de publicidade e análises de terceiros para ajudar a apoiar nossas iniciativas de marketing, aprimorar os Serviços da Riot e gerenciar melhor nossas campanhas publicitárias.
+        
+        Saiba Mais
+        
+        Voltar ao Início
+        
+        II. COMO COLETAMOS DADOS
+        Resumo: Além dos dados que você nos fornece, nós e nossos parceiros armazenamos automaticamente algumas informações sobre como você utiliza e navega nos Serviços da Riot. Podemos combinar essas informações com outras informações que coletamos de ou sobre você, conforme descrito nesta política, inclusive para fazer cumprir nossos Termos de Serviço e para fins de análise e publicidade.
+        
+        A. Cookies & Tecnologias Relacionadas
+        Resumo: Utilizamos nossos próprios servidores e tecnologias, como cookies, para coletar e armazenar automaticamente as informações sobre como você interage com os Serviços da Riot, bem como o dispositivo que você usa ao fazê-lo.
+        
+        Saiba Mais
+        
+        </textarea>
+      <div class="box-select">
+        <input type="checkbox" id="termoss" value="termoss" name="experiencias">
+        <label for="termoss">Concordo com os Termos de Serviço e com o processamento dos meus dados de acordo com o Aviso de Privacidade.</label>
+      </div>
+      <div class="box-select">
+        <input type="checkbox" id="emailss" value="emailss" name="experiencias">
+        <label for="emailss">Desejo receber eventuais e-mails sobre propaganda de tudo.</label>
+      </div>
+    </form>
+    
+    
+    <div class="buttonEnviar">
+    <button type="submit" onclick="loginPage()"> Enviar </button>
+  </div>
+  </div>
+</div>
+</body>
+</html>
