@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem vindo!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link rel="stylesheet" href="CSS inscricao/styles.css" />
     <script src="JS inscricao/script.js" defer></script>
 </head>
@@ -13,33 +14,52 @@
       <div class="contentsub">
         <h1>Formulário Criatura Magíca : </h1>
     <form id="insc">
+
+
+      <div id='msgError'></div>
+    <div id='msgSuccess'></div>
+
+
       <p> Nome :</p>
+
         <div >
-            <input type="text" placeholder="Digite seu nome" class="inputs required" oninput="nameValidate()" />
-            <span class="span-required">Nome deve ter no minimo 3 caracteres</span>
+            <input type="text" id="nome" placeholder="Digite seu nome" class="inputs required" required  />
+            <label id="labelNome" for="nome"> </label>
         </div>
-        <p> Email :</p>
+
+
+        <p> Usuario :</p>
         <div >
-            <input type="email" placeholder="Digite seu melhor email" class="inputs required" oninput="emailValidate()" />
-            <span class="span-required">Digite um email valido</span>
+            <input type="email" id="email" placeholder="Digite seu melhor Usuario" class="inputs required" required />
+            <label id="labelEmail" for="email"> </label>
         </div>
+
+
         <p>Endereço Magíco :</p>
         <div >
-          <input type="text" placeholder="Digite seu endereço" class="inputs required" oninput="mainEnderecoValidate()" />
-          <span class="span-required">Digite um endereço valido</span>
+          <input type="text" id="endereço" placeholder="Digite seu endereço" class="inputs required"  />
+          <label id="labelEndereco" for="endereço"> </label>
       </div>
+
+      
         <p> Senha :</p>
         <div >
-            <input type="password" placeholder="Digite sua senha" class="inputs required" oninput="mainPasswordValidate()" />
-            <span class="span-required">Digite uma senha com no minimo 8 caracteres</span>
-        </div>
-        <div >
-            <input type="password" placeholder="Digite novamente sua senha" class="inputs required" oninput="mainPasswordNewValidate()"/>
-            <span class="span-required">Senhas devem ser compativeis</span> 
+            <input type="password" id="senha" placeholder="Digite sua senha" class="inputs required" required />
+            <label id="labelSenha" for="senha"> </label>
             
         </div>
+
+
+        <div >
+            <input type="password" id="confirmSenha" placeholder="Digite novamente sua senha" class="inputs required" required />
+            <label id="labelConfirmSenha" for="confirmSenha"></label>
+            
+        </div>
+
+
         <p>Se descreva um pouco:</p>
 <textarea class="inputs" name="descricao" id="descricao" cols="25" rows="10" placeholder="Fale um pouco sobre voce..."></textarea>
+
 
 <p> Sexo:</p>
 <div class="box-select">
@@ -47,15 +67,22 @@
   <label for="m">Masculino</label>
 </div>
 
+
+
+
 <div class="box-select">
     <input type="radio" id="f" value="f" name="sexo"> 
     <label for="f">Feminino</label>
   </div>
 
+
+
   <div class="box-select">
     <input type="radio" id="o" value="o" name="sexo">
     <label for="o">Outro</label>
   </div>
+
+
 
   <p> Quais suas experiencias </p>
   <div class="box-select">
@@ -63,20 +90,29 @@
     <label for="html">HTML</label>
   </div>
   
+
+
   <div class="box-select">
       <input type="checkbox" id="css" value="css" name="experiencias"> 
       <label for="css"> CSS </label>
     </div>
   
+
+
     <div class="box-select">
       <input type="checkbox" id="js" value="js" name="experiencias">
       <label for="js">JavaScript</label>
     </div>
     
+
+
     <div class="box-select">
         <input type="checkbox" id="php" value="php" name="experiencias">
         <label for="php">PHP</label>
       </div>
+
+
+
       <p> Termos de Serviço :</p>
       <textarea class="inputs" name="descricao" id="descricao" cols="25" rows="10" > Bem-vindo à Riot Games! Nossa política de privacidade explica quais informações a Riot Games coleta quando você visita ou usa os Serviços da Riot, bem como as formas como podemos usá-las ou compartilhá-las. Estamos apenas descrevendo nossas próprias práticas – esta política não se aplica a terceiros que não controlamos e nem fazem parte de nosso grupo, inclusive outras empresas com as quais você possa interagir nos Serviços da Riot ou por meio deles (consulte Sites e Serviços de Terceiros).
 
@@ -148,20 +184,29 @@
         Saiba Mais
         
         </textarea>
+
+
       <div class="box-select">
         <input type="checkbox" id="termoss" value="termoss" name="experiencias">
         <label for="termoss">Concordo com os Termos de Serviço e com o processamento dos meus dados de acordo com o Aviso de Privacidade.</label>
       </div>
+
+
       <div class="box-select">
         <input type="checkbox" id="emailss" value="emailss" name="experiencias">
         <label for="emailss">Desejo receber eventuais e-mails sobre propaganda de tudo.</label>
       </div>
+
+
+      <div class="buttonEnviar">
+        <button type="submit"  onclick="cadastrar()"> Enviar </button>
+      </div>
+
+      
     </form>
     
     
-    <div class="buttonEnviar">
-    <button type="submit" onclick="loginPage()"> Enviar </button>
-  </div>
+    
   </div>
 </div>
 </body>

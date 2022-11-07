@@ -16,16 +16,19 @@
         </div>
         <div class="right-login">
            <div class="card-login"> 
+            
+            <div id="msgError"> </div>
+
             <h1>LOGIN </h1>
                  <div class="textfield">
-                      <label for="usuario">Email :</label>
-                      <input type="text" name="usuario" placeholder="Exemplo@hotmail.com">
+                      <label id="emailLabel" for="email">Usuario :</label>
+                      <input type="text" id="email" name="email" placeholder="Seu Usuario">
                  </div>
                  <div class="textfield">
-                    <label for="senha">Senha :</label>
-                    <input type="password" name="senha" placeholder="Sua senha">
+                    <label id="senhaLabel" for="senha">Senha :</label>
+                    <input type="password" id="senha" name="senha" placeholder="Sua Senha">
                </div>
-               <button class="btn-login" onclick="loginButton()"> Login</button>
+               <button class="btn-login" onclick="entrar()"> Login</button>
                
                <button class="btn-login" onclick="registerButton()"> Nao tem conta? Registrar-se</button>
            </div>
