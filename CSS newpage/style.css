@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#d3ad7f;
-    --black:#13131a;
-    --bg:#010103;
+    --main-color:#00ff88;
+    --black:#00000056;
+    --bg:linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%);
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
@@ -63,7 +63,7 @@ section{
     display: inline-block;
     padding:.9rem 3rem;
     font-size: 1.7rem;
-    color:#fff;
+    color:#2b134b;
     background: var(--main-color);
     cursor: pointer;
 }
@@ -208,7 +208,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/home-img.jpeg) no-repeat;
+    background:url(../images/family1.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -220,7 +220,8 @@ section{
 .home .content h3{
     font-size: 6rem;
     text-transform: uppercase;
-    color:#fff;
+    color:#00ff88;
+    /* color: #010103; */
 }
 
 .home .content p{
@@ -228,7 +229,8 @@ section{
     font-weight: lighter;
     line-height: 1.8;
     padding:1rem 0;
-    color:#eee;
+    color:#0efff9;
+    text-transform: uppercase;
 }
 
 .about .row{
@@ -559,13 +561,88 @@ section{
 
 
 
+/* test slide */
+
+/* .contente {
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fff;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+
+.bar:hover {
+    background-color: #fff;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
 
 
 
 
 
 
-
+ */
 
 
 
@@ -632,6 +709,7 @@ section{
     }
 
 }
+
 
 @media (max-width:450px){
 

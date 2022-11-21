@@ -4,32 +4,539 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS pagina/style.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS newpage/style.css" />
     <script src="JS pagina/script.js" defer></script>
-    <!-- <script src="JS inscricao/" defer></script> -->
-    <title>Pagina Inicial</title>
 </head>
+
 <body>
-    <div class="wrapper">
-        <div class="parent">
-            <nav>
-                <div id="welcomee"> 
-            <h2 class="logo"> seja bem vindo <span id="username"> </span> </h2>
-        </div>
-            <ul class="iconess">
-                <li><a href="login.html">Home </a> </li>
-                <li><a href="#">About </a> </li>
-                <li><a href="#">Contato </a> </li>
-                <li><a href="#">Servicos </a> </li>
-                <li><a href="#">Portfolio </a> </li>
-            </ul>
-            <button type="button"> Subscribe</button>
-            <button onclick="sair()"> Sair </button>
+
+    <!-- cabeçalho sessao -->
+
+    <header class="header">
+        
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="" >
+            
+        </a>
+      
+        <nav class="navbar">
+            <a href="#">Home </a>
+                <a href="#about">Sobre </a>
+                <a href="#menu">Familia </a> 
+                <a href="#products">Produtos </a> 
+                <a href="#review">Review </a>
+                <a href="#contact">contact </a>
+                <a href="#blogs">Blogs </a>
+
         </nav>
+        
+      
+        <div class="icons">
+           <div class="fas fa-search" id="search-btn"> </div>
+           <div class="fas fa-shopping-cart" id="cart-btn"> </div>
+           <div class="fas fa-bars" id="menu-btn"> </div>
+           
+
+        </div>
+        <a class="btn"> Sair </a>
+        
+
+        <div class="search-form">
+             <input type="search" id="search-box" placeholder="Pesquise....">
+             <label for="search-box" class="fas fa-search"></label>
+
+        </div>
+        
+     
+        <div class="cart-items-container">
+            <div class="cart-item">
+               <span class="fas fa-times"></span>
+               <img src="images/cart-item-1.png" alt="" >
+               <div class="content">
+                  <h3>Cart item 01</h3>
+                  <div class="price"> %15.99/-</div>
+               </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-2.png" alt="" >
+                <div class="content">
+                   <h3>Cart item 02</h3>
+                   <div class="price"> %15.99/-</div>
+                </div>
+             </div>
+             <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-3.png" alt="" >
+                <div class="content">
+                   <h3>Cart item 03</h3>
+                   <div class="price"> %15.99/-</div>
+                </div>
+             </div>
+             <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-4.png" alt="" >
+                <div class="content">
+                   <h3>Cart item 04</h3>
+                   <div class="price"> %15.99/-</div>
+                </div>
+             </div>
+             <a href="#" class="btn"> Yessss </a>
+        </div>
+
+
+    </header>
+    
+    <!-- header section fim -->
+
+<!-- test de slide -->
+<!-- <section>
+
+    <div class="contente">
+
+        <div class="slides">
+
+            <input type="radio" name="slide" id="slide1" checked>
+            <input type="radio" name="slide" id="slide2">
+            <input type="radio" name="slide" id="slide3">
+            <input type="radio" name="slide" id="slide4">
+            <input type="radio" name="slide" id="slide5">
+            
+            <div class="slide s1">
+     <img src="./imagensnew/1.jpg" alt="e">
+
+            </div>
+
+            <div class="slide">
+                <img src="./imagensnew/2.jpg"  alt="a">
+                
+            </div>
+
+            <div class="slide">
+                <img src="./imagensnew/3.jpg"  alt="b">
+                
+            </div>
+
+            <div class="slide">
+                <img src="./imagensnew/4.jpg"  alt="c">
+                
+            </div>
+
+            <div class="slide">
+                <img src="./imagensnew/5.jpg"  alt="d">
+                
+            </div>
+
+        </div>
+        <div class="navigation">
+            <label class="bar" for="slide1" ></label>
+            <label class="bar" for="slide2" ></label>
+            <label class="bar" for="slide3" ></label>
+            <label class="bar" for="slide4" ></label>
+            <label class="bar" for="slide5" ></label>
+        </div>
+
+    </div>
+
+</section>
+     -->
+
+    <!-- home sectios inicio -->
+     
+    <section class="home" id="home">
+        <div class="content">
+            <h3> Seja Bem-Vindo Criatura magica!</h3>
+            <p>Aqui, voce pode descobrir mais sobre sua origem, suas caracteristicas, sua familia e muito mais!! </p>
+                <a href="#" class="btn"> Confira aqui! </a>
+        </div>
+
+
+    </section>
+
+    <!-- home sections end -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+        <h1 class="heading"> Sobre <span> voce </span></h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/sofisemae.jpeg" alt="" >
+            </div>
+
+           <div class="content">
+             <h3> Quem é voce?</h3>
+             <p> Sei que agora deve estar cheio de perguntas, Quem é minha familia?   </p>
+             <p> Voce pertence a familia Smurf, Todos as cem criaturas que vivem na Vila Smurf têm aproximadamente 100 anos de idade. As exceções são Mamae Smurf e Papai Smurf. O primeiro, tem 550 anos, enquanto o segundo tem 600. </p>
+             <a  onclick="ela()" class="btn">Venha ver suas memorias!</a>
+
+           </div>
+
+        </div>
+
+
+
+
+    </section>
+
+<!-- about final -->
+
+<!-- menu inicial -->
+  
+     <section class="menu" id="menu">
+
+          <h1 class="heading"> Sua <span> Familia </span> </h1>
+
+          <div class="box-container">
+           
+            <div class="box">
+                    <img src="images/irmao.jpeg" alt="">
+                    <h3> Irmaozinho Smurf</h3>
+                    <div class="price">Brincalhao<span> Henrique</span></div>
+                    <a href="#" class="btn" > Saiba mais  </a>
+            </div>
+                       
+            <div class="box">
+                <img src="images/mae.jpeg" alt="">
+                <h3> Mamae Smurf</h3>
+                <div class="price"> Liderança <span> Cynthia</span></div>
+                <a href="#" class="btn" > saiba mais  </a>
+        </div>
+
+           
+
+        <div class="box">
+            <img src="images/pai.jpeg" alt="">
+            <h3> Papai Smurf</h3>
+            <div class="price">sabedoria <span> Marco</span></div>
+            <a href="#" class="btn" > saiba mais  </a>
+    </div>
+
+    <div class="box">
+        <img src="images/merliah.jpeg" alt="">
+        <h3> Merliahzinha </h3>
+        <div class="price"> Chamego <span> Gato</span></div>
+        <a href="#" class="btn" > saiba mais </a>
+</div>
+  
+
+<!-- <div class="box">
+    <img src="images/menu-5.png" alt="">
+    <h3> Vovó Smurf</h3>
+    <div class="price"> Curandeira <span> 20,99</span></div>
+    <a href="#" class="btn" > add to cart  </a>
+</div> -->
+
+<!-- <div class="box">
+    <img src="images/menu-6.png" alt="">
+    <h3> tasty and healty</h3>
+    <div class="price">$ 15.99 <span> 20,99</span></div>
+    <a href="#" class="btn" > add to cart  </a>
+</div> -->
+
+
+
+          </div>
+
+
+     </section>
+
+<!-- menu end -->
+
+<section class="products" id="products">
+
+       <h1 class="heading"> Lojinha <span> Da villa</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/kisspng-smurfette-papa-smurf-the-smurfs-hat-costume-bottom-pattern-5adc4a570ef494.8608848115243863910613.png" alt="" > 
+            </div>
+            <div class="content">
+                <h3> Gorro Branco </h3>
+                <div class="starts">
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star-half-alt"> </i>
+                </div>
+                <div class="price">
+                    R$15.99 <span>R$20.99 </span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/placa1.png" alt="" > 
+            </div>
+            <div class="content">
+                <h3> Placa de Madeira </h3>
+                <div class="starts">
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star-half-alt"> </i>
+                </div>
+                <div class="price">
+                    R$15.99 <span>R$20.99 </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/frutas2.png" alt="" > 
+            </div>
+            <div class="content">
+                <h3> Frutas Diversas </h3>
+                <div class="starts">
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star-half-alt"> </i>
+                </div>
+                <div class="price">
+                    R$15.99 <span>R$20.99 </span>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</section>
+
+<!-- finish prodcut -->
+
+<section class="review" id="review" >
+    <h1 class="heading"> customer's  <span> reviwe </span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+      
+             <img src="images/quote-img.png" alt="" class="quote" >
+             <p> lore voce sabia que oc afe e tipo muito bom 
+                para que vc absorva tudo no seu organbuismo, fiora isso nao tem nada apresdentar se nao tiver
+                consciencia de tudo que ta fazendo
+                entao tem como kidar para que nao tenha na
+             </p>
+             <img src="images/pic-1.png" class="user" alt="" > 
+             <h3> john deo</h3>
+             <div class="starts">
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star"> </i>
+                <i class="fas fa-star-half-alt"> </i>
+            </div>
+
+        </div>
+    
+        <div class="box">
+      
+            <img src="images/quote-img.png" alt="" class="quote" >
+            <p> lore voce sabia que oc afe e tipo muito bom 
+               para que vc absorva tudo no seu organbuismo, fiora isso nao tem nada apresdentar se nao tiver
+               consciencia de tudo que ta fazendo
+               entao tem como kidar para que nao tenha na
+            </p>
+            <img src="images/pic-2.png" class="user" alt="" > 
+            <h3> john deo</h3>
+            <div class="starts">
+               <i class="fas fa-star"> </i>
+               <i class="fas fa-star"> </i>
+               <i class="fas fa-star"> </i>
+               <i class="fas fa-star"> </i>
+               <i class="fas fa-star-half-alt"> </i>
+           </div>
+        </div>
+
+           <div class="box">
+      
+            <img src="images/quote-img.png" alt="" class="quote" >
+            <p> lore voce sabia que oc afe e tipo muito bom 
+               para que vc absorva tudo no seu organbuismo, fiora isso nao tem nada apresdentar se nao tiver
+               consciencia de tudo que ta fazendo
+               entao tem como kidar para que nao tenha na
+            </p>
+            <img src="images/pic-3.png" class="user" alt="" > 
+            <h3> john deo</h3>
+            <div class="starts">
+               <i class="fas fa-star"> </i>
+               <i class="fas fa-star"> </i>
+               <i class="fas fa-star"> </i>
+               <i class="fas fa-star"> </i>
+               <i class="fas fa-star-half-alt"> </i>
+           </div>
+
+       </div>
+
+
+       
+
+    
+    </div>
+
+
+
+</section>
+
+<!-- reviwe end -->
+
+
+<!-- contatct section  -->
+
+<section class="contact" id="contact">
+
+  <h1 class="heading"> Aonde fica a <span> Vila magica </span></h1>
+
+  <div class="row">
+    <iframe class= "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15668.071700804845!2d-38.800265961443536!3d-10.962018308912267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71222e3421abc21%3A0x3df0abe11184850c!2sTucano%2C%20BA%2C%2048790-000!5e0!3m2!1spt-PT!2sbr!4v1667929447936!5m2!1spt-PT!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+
+    <form action="">
+        <h3>get in touch </h3>
+        <div class="inputBox">
+         <span class="fas fa-user"> </span>
+         <input type="text" placeholder="name">
+
+        </div>
+        <div class="inputBox">
+            <span class="fas fa-envelope"> </span>
+            <input type="email" placeholder="email">
+   
+           </div>
+           <div class="inputBox">
+            <span class="fas fa-phone"> </span>
+            <input type="number" placeholder="number">
+   
+           </div>
+           <button type="button" onclick="ir()" class="btn"> Venha Visitar! </button>
+
+    </form>
+
+  </div>
+
+</section>
+<!-- finish contact -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span> Blogs </span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+         <div class="image">
+            <img src="images/blog-1.jpeg" alt="" >
+         </div>
+         <div class="content">
+            <a href="#" class="title"> Mundo encatado</a>
+            <span> by admin / 21st may, 2021k</span>
+            <p> Lorem sahduishdasudhisdhuisadhusahdshudsua. Non, dicta.</p>
+            <a href="#" class="btn"> red more </a>
+         </div>
+         </div>
+         
+
+         <div class="box">
+            <div class="image">
+               <img src="images/blog-2.jpeg" alt="" >
+            </div>
+            <div class="content">
+               <a href="#" class="title"> Filmes que voces estao</a>
+               <span> by admin / 21st may, 2021k</span>
+               <p> Lorem sahduishdasudhisdhuisadhusahdshudsua. Non, dicta.</p>
+               <a href="#" class="btn"> red more </a>
+            </div>
+        </div>
+
+            <div class="box">
+                <div class="image">
+                   <img src="images/blog-3.jpeg" alt="" >
+                </div>
+                <div class="content">
+                   <a href="#" class="title"> Jogos que estamos</a>
+                   <span> by admin / 21st may, 2021k</span>
+                   <p> Lorem sahduishdasudhisdhuisadhusahdshudsua. Non, dicta.</p>
+                   <a href="#" class="btn"> red more </a>
+                </div>
         </div>
     </div>
-    <div class="content" id="content">
-        <h1> menu responsivo </h1>
+
+
     </div>
+</section>
+
+
+<!-- final blog -->
+
+
+<!-- footer inicial -->
+
+<section class="footer">
+
+<div class="share">
+    <a href="#" class="fab fa-facebook-f"> </a>
+    <a href="#" class="fab fa-twitter"> </a>
+    <a href="#" class="fab fa-instagram"> </a>
+    <a href="#" class="fab fa-linkedin"> </a>
+    <a href="#" class="fab fa-pinterest"> </a>
+</div>
+
+<div class="links">
+    <a href="#"> home </a>
+    <a href="#"> about </a>
+    <a href="#"> menu </a>
+    <a href="#"> products </a>
+    <a href="#"> review </a>
+    <a href="#"> contact </a>
+    <a href="#"> blogs </a>
+
+</div>
+
+<div class="credit">
+    created by <span>Bernardo rios</span> / all rights reserved.
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
