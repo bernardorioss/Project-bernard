@@ -64,7 +64,7 @@ todos.forEach((todo) => {
 }
 
 function login() {
-  window.location.href = "inscricao.html";
+  window.location.href = "pagina.html";
 }
 
 /// eventos

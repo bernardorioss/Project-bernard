@@ -14,20 +14,25 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 5px;
-  background:url(../images/) ;
+  background:url(../images/11111.png) ;
 }
 
 body h2 {
-  color: white;
+  color:#00ff88;
+  
+}
+
+.question {
+  color: #00ff88;
 }
 
 main {
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
+  background: #2f2841;
+  padding: 40px;
+  border-radius: 40px;
   width: 100%;
-  max-width: 300px;
-  min-height: 200px;
+  max-width: 900px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,23 +47,35 @@ main {
 
 .spnQtd {
   text-align: end;
+  color: #00ff88;
 }
 
 .answers {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 15px;
 }
 
 button {
   width: 100%;
   text-align: start;
-  padding: 5px;
+  padding: 15px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #008CCC;
-  color: white;
+  background: #00ff88;
+  color: #2f2841;
+}
+
+.buttonresp {
+  color: #2f2841;
+  background: #00ff88;;
+  width: 30%;
+  text-align: start;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .finish {
@@ -69,4 +86,8 @@ button {
 
 .finish button {
   text-align: center;
+}
+
+.finish span {
+  color: #00ff88;
 }

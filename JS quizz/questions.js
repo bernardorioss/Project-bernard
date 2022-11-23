@@ -1,34 +1,86 @@
 export default [
     {
-      question: "Quanto é 1 + 2?",
+      question: "QUANDO A PEQUENA FICA SEM CHAMEGOS POR MUITO TEMPO, O QUE ACONTECE?",
       answers: [
-        { option: "3", correct: true },
-        { option: "2", correct: false },
-        { option: "4", correct: false },
+        { option: "ELA EXPLODE", correct: true },
+        { option: "ELA FICA TRANQUILA", correct: false },
+        { option: "CORRE PARA O ESCURO E SE ISOLA", correct: false },
       ],
     },
     {
-      question: "Quanto é 5 x 2?",
+      question: "QUAL A COMIDA FAVORITA DA PEQUENA?",
       answers: [
-        { option: "9", correct: false },
-        { option: "10", correct: true },
-        { option: "11", correct: false },
+        { option: "FRUTAS E VERDURAS", correct: false },
+        { option: "JAPONES", correct: true },
+        { option: "PIZZA", correct: false },
       ],
     },
     {
-      question: "Quanto é 10 x 8?",
+      question: "QUANTO A PEQUENA TEM DE ALTURA?",
       answers: [
-        { option: "800", correct: false },
-        { option: "90", correct: false },
-        { option: "80", correct: true },
+        { option: "1,98", correct: false },
+        { option: "1,64", correct: false },
+        { option: "1,30", correct: true },
       ],
     },
     {
-      question: "Quanto é 7 x 7?",
+      question: "QUAL A ORDEM DE AMOR CERTA DAS PESSOAS",
       answers: [
-        { option: "70", correct: false },
-        { option: "56", correct: false },
-        { option: "49", correct: true },
+        { option: "PAI, MAE, IRMAO, MERLIAH, AMOR DA VIDA DELA", correct: false },
+        { option: "MAE, ṔAI, MERLIAH, IRMAO, AMOR DA VIDA DELA", correct: false },
+        { option: "AMOR DA VIDA DELA, PAI E MAE, IRMAO, MERLIAH", correct: true },
       ],
     },
+    {
+      question: "A PEQUENA PREFERE:",
+      answers: [
+        { option: "PRAIA E AGUA DE COCO", correct: false },
+        { option: "MONTANHAS E VINHO", correct: true },
+        { option: "NEVE E RASPADINHA GELADA", correct: false },
+      ],
+    },
+    {
+      question: "ELA GOSTA DE :",
+      answers: [
+        { option: "DIA", correct: false },
+        { option: "NOITE", correct: false },
+        { option: "DEPENDE DO HUMOR", correct: true },
+      ],
+    },
+    {
+      question: " SE A CASA ESTA PEGANDO FOGO, ELA SALVA :",
+      answers: [
+        { option: "MERLIAH", correct: true },
+        { option: "AS ROUPAS", correct: false },
+        { option: "BERNARDO", correct: false },
+      ],
+    },
+
+    {
+      question: " QUANTOS ANOS DE VIDA, UM SER MAGICO DA TERRA DE TUCANO VIVE?",
+      answers: [
+        { option: "3 DIAS", correct: false },
+        { option: "300 ANOS", correct: true },
+        { option: "3 MINUTOS", correct: false },
+      ],
+    },
+
+    {
+      question: "QUANTO TEMPO DE SONO A PEQUENA PRECISA :",
+      answers: [
+        { option: "18 HRS POR DIA", correct: true },
+        { option: "8 HRS POR DIA", correct: false },
+        { option: "4 HRS POR DIA", correct: false },
+      ],
+    },
+
+    {
+      question: " ONDE A PEQUENA NASCEU?",
+      answers: [
+        { option: "SALVADOR", correct: false },
+        { option: "DINAMARCA", correct: false },
+        { option: "TERRAS ENCATADAS DOS BICHINHOS DA FLORESTA", correct: true },
+      ],
+    },
+
   ];

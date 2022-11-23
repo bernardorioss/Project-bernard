@@ -5,6 +5,7 @@ function registerButton() {
   function loginButton() {
     window.location.href = "pagina.html";
   }
+  
 
   function entrar(){
     let email = document.querySelector('#email')

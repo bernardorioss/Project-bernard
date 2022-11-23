@@ -1,3 +1,6 @@
+
+
+
 const question = document.querySelector(".question");
 const answers = document.querySelector(".answers");
 const spnQtd = document.querySelector(".spnQtd");
@@ -5,6 +8,7 @@ const textFinish = document.querySelector(".finish span");
 const content = document.querySelector(".content");
 const contentFinish = document.querySelector(".finish");
 const btnRestart = document.querySelector(".finish button");
+
 
 import questions from "./questions.js";
 
@@ -19,6 +23,11 @@ btnRestart.onclick = () => {
   questionsCorrect = 0;
   loadQuestion();
 };
+
+
+
+
+
 
 function nextQuestion(e) {
   if (e.target.getAttribute("data-correct") === "true") {
@@ -38,6 +47,7 @@ function finish() {
   content.style.display = "none";
   contentFinish.style.display = "flex";
 }
+
 
 function loadQuestion() {
   spnQtd.innerHTML = `${currentIndex + 1}/${questions.length}`;
@@ -63,3 +73,6 @@ function loadQuestion() {
 }
 
 loadQuestion();
+
+
+

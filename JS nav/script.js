@@ -1,4 +1,7 @@
-
+function respost() {
+   window.location.href = "respostas.html";
+ }
+ 
 
 let videoList = document.querySelectorAll('.video-list-container .list');
 
