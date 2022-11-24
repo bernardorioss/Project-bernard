@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
 :root{
-   --main-color:#2B1103;
-    /* background: linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%); */
-   --sub-color:#DCC69C;
-   --white:#fff;
+   /* --main-color:#2B1103; */
+    background: linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%);
+   --sub-color:#00ff88;
+   --white:rgba(15, 228, 199, 0.719);
    --border:.1rem solid rgba(220, 198, 156, .3);
 }
 
@@ -119,7 +119,7 @@ section{
 
 .header .navbar a:hover{
    background-color: var(--main-color);
-   color: var(--sub-color);
+   color: blue;
 }
 
 .home .box img{
@@ -170,6 +170,17 @@ section{
 .swiper-button-prev:hover{
    opacity: 1;
 }
+/* ////////// */
+.availability {
+   background: #2f2841;
+  width: 90%;
+  
+  text-align: start;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
 
 .availability form .flex{
    display: flex;
@@ -198,6 +209,19 @@ section{
 
 .availability form .flex .box input[type="date"]::-webkit-calendar-picker-indicator{
    filter: invert(1);
+}
+/* //////////// */
+.about {
+   /* background: yellow; */
+   /* color: #2f2841; */
+  background: #2f2841;
+  width: 90%;
+  
+  text-align: start;
+  padding: 15px;
+  border: none;
+  border-radius: 65px;
+  cursor: pointer;
 }
 
 .about .row{
@@ -239,6 +263,62 @@ section{
    flex-flow: row-reverse;
    margin: 3rem 0;
    flex-wrap: wrap;
+}
+
+.services {
+   background: #2f2841;
+   width: 90%;
+   
+   text-align: start;
+   padding: 15px;
+   border: none;
+   border-radius: 65px;
+   cursor: pointer;
+
+}
+/* //////// */
+.reservation {
+   background: #2f2841;
+   width: 90%;
+   
+   text-align: start;
+   padding: 15px;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+}
+
+.gallery {
+   background: #2f2841;
+   width: 90%;
+   
+   text-align: start;
+   padding: 75px;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+}
+
+.contact {
+   background: #2f2841;
+   width: 90%;
+   
+   text-align: start;
+   padding: 15px;
+   border: none;
+   /* border-radius: 25px; */
+   cursor: pointer;
+}
+
+.reviews  {
+   background: #2f2841;
+   width: 90%;
+   
+   text-align: start;
+   padding: 15px;
+   border: none;
+   /* border-radius: 5px; */
+   cursor: pointer;
 }
 
 .services .box-container{
@@ -463,12 +543,12 @@ section{
 .footer .box-container .box a{
    display: block;
    font-size: 1.8rem;
-   color: var(--sub-color);
+   color: black;
    padding: 1rem 0;
 }
 
 .footer .box-container .box a:hover{
-   color: var(--white);
+   color: blue;
 }
 
 .footer .box-container .box:first-child i{

@@ -9,6 +9,9 @@ body {
 body * {
     box-sizing: border-box;
 }
+button:hover{
+    background-color: hsl(138, 100%, 50%);
+  }
 
 .main-login {
   width: 100vw;

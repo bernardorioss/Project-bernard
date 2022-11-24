@@ -15,6 +15,17 @@ body{
   padding:20px;
 }
 
+.containerr{
+  background: #2f2841;
+   width: 90%;
+   
+   text-align: start;
+   padding: 75px;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
+}
+
 body,
 html{
   overflow-x: hidden;
@@ -165,6 +176,16 @@ html{
   align-items: flex-start;
   
   gap:20px;
+
+
+  background: #4d5ba7;
+   width: 90%;
+   
+   text-align: start;
+   padding: 75px;
+   border: none;
+   border-radius: 25px;
+   cursor: pointer;
   
 }
 
@@ -253,28 +274,40 @@ html{
 /* slide inicio */
 
 .contente {
-  height: 520px;
+  height: 920px;
   width: 935px;
   border-radius: 20px;
   overflow: hidden;
   position:relative;
   margin-top: 30%;
   top: 50%;
-  left: 50%;
+  left: 54%;
   transform: translate(-50%, -50%);
+
+
+/* 
+  background: #4d5ba7;
+   width: 80%;
+   
+   text-align: start;
+   padding: 1px;
+   border: none;
+   border-radius: 95px;
+   cursor: pointer; */
+  
 }
 
 .navigation {
   position: absolute;
-  bottom: 20px;
-  left: 50%;
+  bottom: 60px;
+  left: 40%;
   transform: translate(-50%);
   display: flex;
 }
 
 .bar {
   width: 70px;
-  height: 17px;
+  height: 20px;
   border: 2px solid #fff;
   margin: 6px;
   border-radius: 5px;
@@ -307,8 +340,12 @@ input {
 }
 
 .slide img {
-  width: 100%;
-  height: 100%;
+  height: 50rem;
+   width: 50rem;
+   border-radius: 15px;
+   object-fit: cover;
+   margin-bottom: 4rem;
+   user-select: none;
 }
 
 #slide1:checked ~ .s1 {
