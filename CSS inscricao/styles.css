@@ -14,8 +14,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #f0ffffde;
-    background: linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%);
+    color: #BF9C5A;
+    background: linear-gradient(72deg, #76797e 1%, #09212f 99%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,9 +24,9 @@ body {
 
   .content{
     width: 50vw;
-    background-color: #2f2841;
+    background-color: #3e495c;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 80px;
     min-width: 30%;
     overflow: auto;
 
@@ -51,7 +51,7 @@ body {
   h1{
     margin-bottom: 1rem;
     text-align: center;
-    color: #00ff88;
+    color: #BF9C5A;
   }
 
   .content form{
@@ -99,11 +99,11 @@ outline: none;
 border: none;
 border-radius: 5px;
 margin-top: 1rem;
-background-color: #00ff88;
+background: #BF9C5A;
 color: #2b134b;;
 cursor: pointer;
 transition: .3s;
-box-shadow: 0px 10px 40px -12px #00ff8052;
+box-shadow: 0px 10px 40px -12px #BF9C5A;
 /* display: flex;
 justify-content: center;
 align-items: center;
@@ -148,7 +148,7 @@ flex-direction: column; */
 }
 
   button:hover{
-    background-color: hsl(138, 100%, 50%);
+    background-color: #F2DE58;
   }
 
   @media screen and (max-width: 576px) {

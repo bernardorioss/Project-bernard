@@ -147,7 +147,7 @@
             </select>
          </div>
       </div>
-      <input type="submit" value="Marcar Data" name="check" class="btn">
+      <input type="button" value="Marcar Data" name="check" class="btn" onclick="abrirAlerta()">
    </form>
 
 </section>
@@ -323,7 +323,7 @@
             </div>
          </div>
       </div>
-      <input type="submit" value="check availability" name="check" class="btn">
+      <input type="button" value="Marcar Data" name="check" class="btn" onclick="abrirAlerta()">
    </form>
 
 </section>
@@ -384,7 +384,7 @@
          <input type="email" name="email" required maxlength="50" placeholder="Email :" class="box">
          <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="Numero de contato :" class="box">
          <textarea name="msg" class="box" required maxlength="1000" placeholder="Escreva aqui..." cols="30" rows="10"></textarea>
-         <input type="submit" value="Enviar" name="send" class="btn">
+         <input type="button" value="Enviar" name="send" class="btn" onclick="enviado()">
       </form>
 
       <div class="faq">
@@ -501,7 +501,7 @@
 
 
 
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

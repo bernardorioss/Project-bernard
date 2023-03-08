@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#00ff88;
+    --main-color:#BF9C5A;
     --black:#00000056;
-    --bg:linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%);
+    --bg:linear-gradient(72deg, #76797e 1%, #09212f 99%);
     --border:.1rem solid rgba(255,255,255,.3);
 }
 
@@ -208,9 +208,9 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/family1.jpeg) no-repeat;
+    background:url(../imagensnew/slider-musculacao\ \(1\).jpg) no-repeat;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
 }
 
 .home .content{
@@ -220,7 +220,7 @@ section{
 .home .content h3{
     font-size: 6rem;
     text-transform: uppercase;
-    color:#00ff88;
+    color:#BF9C5A;
     /* color: #010103; */
 }
 
@@ -264,17 +264,37 @@ section{
     line-height: 1.8;
 }
 
+
+
+/* AQQQQQQQQQQQQQ */
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
+
+    
 }
+
+
+
+
 
 .menu .box-container .box{
     padding:5rem;
     text-align: center;
-    border:var(--border);    
+    border:var(--border);   
+    
+    
+
+
+    /* position: relative;
+    height: 348px;
+    width: 250px;
+    margin: 5px;
+    perspective: 1000px; */
 }
+
+
 
 .menu .box-container .box img{
     height: 10rem;
@@ -299,7 +319,7 @@ section{
 }
 
 .menu .box-container .box:hover{
-    background:#fff;
+    background:#3e495c;
 }
 
 .menu .box-container .box:hover > *{
@@ -432,7 +452,7 @@ section{
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    background:var(--bg);
+    /* background:var(--bg); */
     border:var(--border);
 }
 
@@ -643,6 +663,47 @@ input {
 
 
  */
+
+
+/* CARD */
+
+/* .card{
+    position: relative;
+    height: 348px;
+    width: 250px;
+    margin: 5px;
+    perspective: 1000px;
+  }
+  
+  .card .flip {
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .card:hover .flip{
+    transform: rotateY(180deg);
+  }
+  
+  .box, .back-card{
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .back-card{
+    transform: rotateY(180deg);
+  }
+  
+  .box img, .back-card img{
+    border-radius: 12px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0, 0.3)
+  } */
+
+
+
+
+
+
+
 
 
 

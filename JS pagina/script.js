@@ -6,6 +6,14 @@ function ela() {
     window.location.href = "navbar.html";
 }
 
+function add(){
+    swal({
+       title: "Tudo Ok!",
+       text: "Adicionado ao carinho com sucesso!",
+       icon: "success",
+     });
+ }
+
 
 let navbar = document.querySelector('.navbar');
 

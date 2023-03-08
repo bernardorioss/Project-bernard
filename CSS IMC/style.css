@@ -3,15 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
+    
   }
   
   body {
-    background:url(../imagensnew/4.jpg) ;
+    background: linear-gradient(72deg, #76797e 1%, #09212f 99%);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    color: #fff;
+    color: #BF9C5A;
   }
   
   .hide {
@@ -21,9 +22,10 @@
   .container {
     min-width: 400px;
     min-height: 400px;
-    background-color: #2f2841;
+    background: #3e495c;
     padding: 40px;
     border-radius: 40px;
+    box-shadow: 0px 10px 40px #00000056;
   }
   
   /* IMC Form */
@@ -64,7 +66,7 @@
   
   button {
     text-transform: uppercase;
-    background-color: #00ff88;
+    background: #BF9C5A;
     border: none;
     color: #2f2841;
     cursor: pointer;
@@ -79,7 +81,7 @@
   }
   
   #clear-btn {
-    background-color: #00ff88;
+    background: #BF9C5A;
   }
   
   /* Table */

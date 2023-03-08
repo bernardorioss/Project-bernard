@@ -67,3 +67,20 @@ var swiper = new Swiper(".reviews-slider", {
       },
    },
 });
+
+
+function abrirAlerta(){
+   swal({
+      title: "Tudo Ok!",
+      text: "Reservado com sucesso!",
+      icon: "success",
+    });
+}
+
+function enviado(){
+   swal({
+      title: "Tudo Ok!",
+      text: "Mensagem com sucesso!",
+      icon: "success",
+    });
+}
