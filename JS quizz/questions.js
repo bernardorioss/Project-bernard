@@ -1,85 +1,81 @@
 export default [
     {
-      question: "QUANDO A PEQUENA FICA SEM CHAMEGOS POR MUITO TEMPO, O QUE ACONTECE?",
+      
+      question: "É NORMAL SENTIR DORES UM OU DOIS DIAS APÓS A PRÁTICA DOS EXERCÍCIOS?",
       answers: [
-        { option: "ELA EXPLODE", correct: true },
-        { option: "ELA FICA TRANQUILA", correct: false },
-        { option: "CORRE PARA O ESCURO E SE ISOLA", correct: false },
+        { option: "SIM", correct: true },
+        { option: "NÃO", correct: false },
+        
+      ],
+    },
+    { 
+      question: "QUANTO MAIS ALTA A CARGA, MELHOR O RESULTADO NA MUSCULAÇÃO?",
+      answers: [
+        { option: "SIM", correct: false },
+        { option: "NÃO", correct: true },
+        
+      ],
+    },
+    { 
+      question: "APENAS ABDOMINAIS SÃO SUFICIENTES PARA A PERDA DE BARRIGA?",
+      answers: [
+        { option: "SIM", correct: false },
+        { option: "NÃO", correct: true },
+      ],
+    },
+    { 
+      question: " EXISTE A POSSIBILIDADE DO GANHO DE MASSA MUSCULAR COM O TEMPO LIMITADO PARA MUSCULAÇÃO?",
+      answers: [
+        { option: "SIM", correct: true },
+        { option: "NÃO", correct: false },
       ],
     },
     {
-      question: "QUAL A COMIDA FAVORITA DA PEQUENA?",
+      question: " A ÚNICA FUNÇÃO DA MUSCULUÇÃO É DEIXAR AS PESSOAS MUSCULOSAS?",
       answers: [
-        { option: "FRUTAS E VERDURAS", correct: false },
-        { option: "JAPONES", correct: true },
-        { option: "PIZZA", correct: false },
+        { option: "SIM", correct: false },
+        { option: "NÃO", correct: true },
       ],
     },
-    {
-      question: "QUANTO A PEQUENA TEM DE ALTURA?",
+    { 
+      question: "O EMAGRECIMENTO SÓ OCORRE COM A PRÁTICA DE EXERCÍCIOS AERÓBICOS?",
       answers: [
-        { option: "1,98", correct: false },
-        { option: "1,64", correct: false },
-        { option: "1,30", correct: true },
+        { option: "SIM", correct: false },
+        { option: "NÃO", correct: true },
       ],
     },
-    {
-      question: "QUAL A ORDEM DE AMOR CERTA DAS PESSOAS",
+    { 
+      question: " MUSCULAÇÃO É UM TREINO AERÓBICO?",
       answers: [
-        { option: "PAI, MAE, IRMAO, MERLIAH, AMOR DA VIDA DELA", correct: false },
-        { option: "MAE, ṔAI, MERLIAH, IRMAO, AMOR DA VIDA DELA", correct: false },
-        { option: "AMOR DA VIDA DELA, PAI E MAE, IRMAO, MERLIAH", correct: true },
-      ],
-    },
-    {
-      question: "A PEQUENA PREFERE:",
-      answers: [
-        { option: "PRAIA E AGUA DE COCO", correct: false },
-        { option: "MONTANHAS E VINHO", correct: true },
-        { option: "NEVE E RASPADINHA GELADA", correct: false },
-      ],
-    },
-    {
-      question: "ELA GOSTA DE :",
-      answers: [
-        { option: "DIA", correct: false },
-        { option: "NOITE", correct: false },
-        { option: "DEPENDE DO HUMOR", correct: true },
-      ],
-    },
-    {
-      question: " SE A CASA ESTA PEGANDO FOGO, ELA SALVA :",
-      answers: [
-        { option: "MERLIAH", correct: true },
-        { option: "AS ROUPAS", correct: false },
-        { option: "BERNARDO", correct: false },
+        { option: "SIM", correct: false},
+        { option: "NÃO", correct: true },
+        
       ],
     },
 
-    {
-      question: " QUANTOS ANOS DE VIDA, UM SER MAGICO DA TERRA DE TUCANO VIVE?",
+    { 
+      question: " SÓ TEREI RESULTADOS SE SENTIR DORES?",
       answers: [
-        { option: "3 DIAS", correct: false },
-        { option: "300 ANOS", correct: true },
-        { option: "3 MINUTOS", correct: false },
+        { option: "SIM", correct: false },
+        { option: "NÃO", correct: true },
+        
       ],
     },
 
-    {
-      question: "QUANTO TEMPO DE SONO A PEQUENA PRECISA :",
+    { 
+      question: "SOU CARDIOPATA. POSSO TREINAR?",
       answers: [
-        { option: "18 HRS POR DIA", correct: true },
-        { option: "8 HRS POR DIA", correct: false },
-        { option: "4 HRS POR DIA", correct: false },
+        { option: "SIM", correct: true },
+        { option: "NÃO", correct: false },
+        
       ],
     },
 
-    {
-      question: " ONDE A PEQUENA NASCEU?",
+    { 
+      question: " É BOM TREINAR EM JEJUM?",
       answers: [
-        { option: "SALVADOR", correct: false },
-        { option: "DINAMARCA", correct: false },
-        { option: "TERRAS ENCATADAS DOS BICHINHOS DA FLORESTA", correct: true },
+        { option: "SIM", correct: false },
+        { option: "NÃO", correct: true },
       ],
     },
 

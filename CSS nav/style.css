@@ -11,7 +11,7 @@
   
 }
 body{
-  background: linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%);
+  background: linear-gradient(72deg, #76797e 1%, #09212f 99%);
   padding:20px;
 }
 
@@ -77,7 +77,7 @@ html{
   font-size: 4em;
   color:transparent;
   /* -webkit-text-stroke: .5px rgba(255,255,255,.5); */
-  -webkit-text-stroke: .5px blueviolet;
+  -webkit-text-stroke: .5px #BF9C5A;
   font-weight: bolder;
   position: relative;
   letter-spacing: 3px;
@@ -91,7 +91,7 @@ html{
   position: absolute;
   top:0; left:0;
   /* color:rgba(255,255,255,.9); */
-  color: blue;
+  color: #BF9C5A;
   transition: .3s linear;
   clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
   
@@ -113,26 +113,26 @@ html{
   height: 100%;
   width: 100%;
   /* background: url(../images/nav-img-1.jpg) no-repeat; */
-  background: url(../imagenss/smurf1.jpg) no-repeat;
+  background: url(../imagenss/bracoaberto.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   z-index: -1;
 }
 
 .navbar a:hover:nth-child(1) ~ .background-image{
-  background: url(../imagenss/smurf3.jpg) no-repeat;
+  background: url(../imagenss/mulherbraço.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .navbar a:hover:nth-child(2) ~ .background-image{
-  background: url(../imagenss/smurf2.jpg) no-repeat;
+  background: url(../imagenss/cordahomem.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .navbar a:hover:nth-child(3) ~ .background-image{
-  background: url(../imagenss/smurf6.jpg) no-repeat;
+  background: url(../imagenss/mulherco.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }

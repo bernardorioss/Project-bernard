@@ -3,10 +3,10 @@
 :root{
    /* --main-color:#2B1103; */
     /* background: linear-gradient(72deg, #3DEBB0 1%, #8956F3 99%); */
-   --sub-color:#00ff88;
+   --sub-color:#BF9C5A;
    --white:#fff;
    --border:.1rem solid rgba(220, 198, 156, .3);
-   background:url(../images/11111.png) ;
+   background: linear-gradient(72deg, #76797e 1%, #09212f 99%);
 }
 
 *{
@@ -399,7 +399,7 @@ section{
    border-radius: .5rem;
    border: var(--border);
    margin-top: 2rem;
-   background-color: #2f2841;
+   background-color: #3e495c;
 }
 
 .contact .row .faq .box h3{

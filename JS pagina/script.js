@@ -14,6 +14,14 @@ function add(){
      });
  }
 
+ function enviado(){
+    swal({
+       title: "Tudo Ok!",
+       text: "Mensagem com sucesso!",
+       icon: "success",
+     });
+ }
+
 
 let navbar = document.querySelector('.navbar');
 
